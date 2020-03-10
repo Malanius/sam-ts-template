@@ -130,3 +130,6 @@ $RECYCLE.BIN/
 
 ### Typescript compiled js ###
 *.js
+
+### SAM output ###
+.aws-sam
