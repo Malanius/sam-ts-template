@@ -13,7 +13,10 @@
     "test": "mocha tests/unit/"
   },
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.46",
+    "@types/node": "^13.9.0",
     "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "typescript": "^3.8.3"
   }
 }
