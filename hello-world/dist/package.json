@@ -1,1 +1,27 @@
-../package.json
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "description": "hello world sample for NodeJS",
+  "main": "app.js",
+  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "scripts": {
+    "start": "tsc -w",
+    "clean": "rimraf dist/*.js",
+    "build": "yarn clean && tsc",
+    "pretest": "yarn build",
+    "test": "echo No tests specified!"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.46",
+    "@types/node": "^13.9.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}
